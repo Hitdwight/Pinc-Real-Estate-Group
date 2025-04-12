@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Welcome to 1404 Oceanfront Lower!</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 2em;
+      color: #333;
+    }
+    .container {
+      background: white;
+      max-width: 700px;
+      margin: auto;
+      padding: 2em;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .info {
+      margin: 1em 0;
+      font-size: 1.2em;
+    }
+    .qr {
+      margin-top: 2em;
+    }
+    img.logo {
+      width: 150px;
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://1drv.ms/i/c/bade972d5b135007/EQdQE1stl94ggLpmOAAAAAABLGPEoIFqRqL3SnzkE5sqEg?e=dR30fE" alt="Property Logo" class="logo" />
+    <h1>Welcome, <span style="color:#2c3e50;"><strong><!--GUEST_NAME--></strong></span>!</h1>
+    <p class="info">We’re excited to host you at <strong>1404 Oceanfront Lower</strong>.</p>
+    <p class="info">Wi-Fi: <strong>1404 Ocean</strong></p>
+    <p class="info">Password: <strong>Beach1404</strong></p>
+    <p class="info">Check-out: 11:00 AM</p>
+    <p class="info">Need anything? Text us: <a href="tel:+16468202010">(646) 820-2010</a></p>
+    <div class="qr">
+      <p>Scan for the full guest guide:</p>
+      <img src="https://qrcc.me/s2zpniyqvdaa?s=url" alt="QR Code" width="200" />
+    </div>
+  </div>
+</body>
+</html>
